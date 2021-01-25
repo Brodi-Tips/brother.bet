@@ -1,3 +1,3 @@
-import config from '@brother.bet/eslint-config';
+import config from '@brother.bet/eslint-config'
 
-export default config;
+export default config

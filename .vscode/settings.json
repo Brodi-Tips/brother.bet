@@ -1,5 +1,4 @@
 {
-  "terminal.integrated.fontSize": 11,
   "terminal.integrated.scrollback": 700000,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.shell.osx": "/bin/zsh",
@@ -8,8 +7,6 @@
   "workbench.startupEditor": "newUntitledFile",
 
   "editor.tabSize": 2,
-  "editor.fontSize": 10,
-  "editor.lineHeight": 13,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,

@@ -1,4 +1,6 @@
 ### Cloud
+GET http://brother.bet/fifaArena/since?date=2020.10.19
+### Cloud
 GET http://brother.bet/fifaArena?year=2020
 ### Cloud
 GET http://brother.bet/fifaArenaByDate?date=2020.08.19
@@ -7,12 +9,17 @@ GET http://brother.bet/fifaArenaDates?year=2020
 ### Cloud
 DELETE http://brother.bet/fifaArena?date=2020.08.19
 
+
 ### Local
-GET http://localhost:5000/fifaArena?year=2020
+GET http://localhost:5000/brother-bet/us-central1/app/fifaArena/since?date=2020.08.19
 ### Local
-GET http://localhost:5000/fifaArenaByDate?date=2020.08.19
+GET http://localhost:5000/brother-bet/us-central1/app/fifaArena?year=2020
 ### Local
-GET http://localhost:5000/fifaArenaDates?year=2020
+GET http://localhost:5000/brother-bet/us-central1/app/fifaArenaByDate?date=2020.08.19
 ### Local
-DELETE http://localhost:5000/fifaArena?date=2020.08.19
+GET http://localhost:5000/brother-bet/us-central1/app/fifaArenaByDate?date=2020.08.19
+### Local
+GET http://localhost:5000/brother-bet/us-central1/app/fifaArenaDates?year=2020
+### Local
+DELETE http://localhost:5000/brother-bet/us-central1/app/fifaArena?date=2020.08.19
 

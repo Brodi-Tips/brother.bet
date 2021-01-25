@@ -1,7 +1,7 @@
 {
-  "name": "@brother.bet/mobile",
+  "name": "@brother.bet/web",
   "version": "1.0.0",
-  "description": "Brother Bet Mobile",
+  "description": "Brother Bet Web",
   "private": "true",
   "main": "./src/index.js",
   "scripts": {
@@ -12,11 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@next/bundle-analyzer": "^10.0.5",
+    "axios": "^0.21.1",
     "next": "9.5.2",
     "next-images": "^1.6.2",
     "nodemon": "^2.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-icons": "^4.1.0",
+    "react-scripts": "2.0.3",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

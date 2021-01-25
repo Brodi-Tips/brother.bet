@@ -52,7 +52,8 @@
     "indexes": "firestore.indexes.json"
   },
   "functions": {
-    "source": "functions"
+    "source": "functions",
+    "runtime": "nodejs12"
   },
   "emulators": {
     "functions": {

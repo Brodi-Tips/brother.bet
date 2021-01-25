@@ -30,6 +30,7 @@ module.exports = {
     'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
+    semi: ['error', 'never'],
   },
   settings: {
     'import/resolver': {},
@@ -37,4 +38,4 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+}

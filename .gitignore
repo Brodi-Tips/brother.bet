@@ -1,11 +1,19 @@
-#->Packages
-#-->Firebase
+# Firebase
 **/functions/model/*.json
-#-->Backend
-#-->Frontend
 
-#Vercel
-packages/mobile/.next/
+# Vercel
+**/.next/
+**/out/
+
+# Production
+**/build
+
+# Development
+**/coverage
+
+# Miscellany
+.DS_Store
+*.pem
 
 # Logs
 logs
@@ -23,13 +31,22 @@ firebase-debug.*.log*
 **/node_modules/**
 node_modules/.bin
 node_modules/*
-node_modules/
 jspm_packages/
+*/.pnp
+*/.pnp.js
 
-# dotenv environment variables file
-.env
+# Environment Variables
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
 
-#Yarn
-./yarn.lock
-packages/mobile/yarn.lock
+# Yarn
+**/yarn.lock
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Debug
+npm-debug.log*
 
