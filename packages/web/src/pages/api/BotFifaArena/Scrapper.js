@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer'
+import puppeteer from 'puppeteer-core'
 import { getOptions } from './chromiumOptions.js'
 
 export default class Scrapper {
