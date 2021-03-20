@@ -24,7 +24,7 @@ export default class Scrapper {
     }
 
     await page.$eval('input[name=tb_date]', (e) => e.blur())
-    await this.delay(2000)
+    await this.delay(3000)
 
     const content = await page.content()
     await browser.close()
