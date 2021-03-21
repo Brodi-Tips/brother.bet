@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import Middleware from '../../js/Class/Middleware'
 import { IButtonsAnimate } from '../../../src/interfaces/components/Navigation'
 
 import {
@@ -23,10 +23,19 @@ export const Navigation = () => {
     users: false,
     sign: false,
   })
+  const mid = new Middleware()
 
   useEffect(() => {
     console.log(animate)
   }, [animate])
+
+  useEffect(() => {
+    async function getClaudio() {
+      const resp = await mid.cloud()
+      console.log(resp)
+    }
+    getClaudio()
+  }, [])
 
   const buttonAnimate = (nameButton) => {
     if (!animate[nameButton]) {
