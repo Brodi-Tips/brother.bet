@@ -15,7 +15,7 @@ export default class Scrapper {
       for (let i = 0; i < 20; i++) {
         await page.keyboard.press('Backspace')
       }
-      await page.focus('#tb_date')
+      await page.focus('#MainContent_tb_date')
       await page.keyboard.type(date)
       for (let i = 0; i < 10; i++) {
         await page.keyboard.press('Delete')
@@ -23,7 +23,7 @@ export default class Scrapper {
       await page.focus('body')
     }
 
-    await page.$eval('input[name=tb_date]', (e) => e.blur())
+    await page.$eval('input[id=MainContent_tb_date]', (e) => e.blur())
     await this.delay(3000)
 
     const content = await page.content()
