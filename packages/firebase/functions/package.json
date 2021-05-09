@@ -28,7 +28,7 @@
     "firebase-functions": "^3.6.1",
     "firebase-functions-test": "^0.2.0",
     "fs": "0.0.1-security",
-    "handlebars": "^4.1.0",
+    "handlebars": "^4.7.7",
     "moment": "^2.26.0",
     "request-promise": "4.2.2"
   }
