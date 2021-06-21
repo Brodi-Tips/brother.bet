@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/api/BotFifaArena/Scrapper.js", "src/pages/api/BotFifaArena/FactoryFifaArena.js", "src/pages/api/fifa_arena.js"],
   "exclude": ["node_modules"],
   "files": ["./custom.d.ts"]
 }

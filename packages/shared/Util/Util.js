@@ -1,4 +1,4 @@
-export default class Util {
+module.exports = class Util {
   static hash(data, label = '') {
     const s = JSON.stringify(data) || '';
     let h = 0;

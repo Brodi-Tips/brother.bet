@@ -1,0 +1,12 @@
+name: Teste 5 minutes 22h daily update at database
+on:
+  schedule:
+    - cron: '0/5 22 * * *'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call our API route
+        run: |
+          curl --request GET \
+           -m 60000 --url 'https://brother-bet-mobile.vercel.app/api/fifa_arena' \
