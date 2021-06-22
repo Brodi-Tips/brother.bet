@@ -1,0 +1,23 @@
+{
+  "name": "@brother.bet/backend",
+  "version": "1.0.0",
+  "description": "Brother Bet Backend",
+  "private": "true",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "nodemon ./src/index.js"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "@hapi/joi-date": "^2.0.1",
+    "celebrate": "^12.1.1",
+    "cors": "^2.8.5",
+    "express": "4.16.4",
+    "moment-timezone": "0.5.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
