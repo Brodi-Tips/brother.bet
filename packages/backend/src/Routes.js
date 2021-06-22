@@ -2,7 +2,7 @@ const { celebrate } = require('celebrate');
 const express = require('express');
 
 const SensorValidator = require('../validators/SensorValidator');
-const SensorController = require('../controller/SensorController');
+const SensorController = require('./controller/SensorController');
 
 module.exports = class Routes {
   constructor() {
