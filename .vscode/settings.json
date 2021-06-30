@@ -8,7 +8,7 @@
   "workbench.startupEditor": "newUntitledFile",
 
   "editor.tabSize": 2,
-  "editor.fontSize": 10,
+  "editor.fontSize": 12,
   "editor.lineHeight": 13,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
@@ -66,7 +66,7 @@
     ".prettierrc": "json"
   },
 
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
 
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },

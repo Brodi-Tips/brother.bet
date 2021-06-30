@@ -1,7 +1,7 @@
 {
-  "name": "@brother.bet/backend",
+  "name": "@brother.bet/server",
   "version": "1.0.0",
-  "description": "Brother Bet Backend",
+  "description": "Brother Bet Server",
   "private": "true",
   "main": "./src/index.js",
   "scripts": {
