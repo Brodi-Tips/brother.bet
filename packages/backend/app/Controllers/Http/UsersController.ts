@@ -1,4 +1,5 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
+import Database from '@ioc:Adonis/Lucid/Database';
 import User from '../../Models/User';
 
 export default class UsersController {
@@ -15,7 +16,15 @@ export default class UsersController {
   }
 
   public async index(){
-    const all = await User.all();
-    return all;
+      const games = await Database
+      .rawQuery(`
+        select
+          *
+        from
+          fifa.view_games
+        limit 100
+      `)
+
+      return games
   }
 }
