@@ -28,6 +28,7 @@
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.19",
+    "string-similarity": "^4.0.4",
     "telegram-bot-api": "^2.0.1"
   }
 }
