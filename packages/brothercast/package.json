@@ -1,7 +1,7 @@
 {
-  "name": "@brother.bet/backend",
+  "name": "@bot_telegram/brothercast",
   "version": "1.0.0",
-  "description": "Brother Bet Backend",
+  "description": "Brother Bet Brothercast",
   "private": true,
   "scripts": {
     "build": "node ace build --production",
@@ -27,9 +27,9 @@
     "@adonisjs/core": "^5.1.0",
     "@adonisjs/lucid": "^15.0.1",
     "@adonisjs/repl": "^3.0.0",
-    "@brother.bet/backend": "1.0.0",
     "insomnia-plugin-os": "^2.2.35",
     "luxon": "^1.27.0",
+    "node-telegram-bot-api": "^0.54.0",
     "pg": "^8.6.0",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",

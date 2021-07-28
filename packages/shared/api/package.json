@@ -1,9 +1,0 @@
-{
-  "name": "@brother.bet/Api",
-  "version": "1.0.0",
-  "main": "Api.js",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.21.1"
-  }
-}

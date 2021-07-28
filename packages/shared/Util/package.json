@@ -1,9 +1,0 @@
-{
-  "name": "@brother.bet/Util",
-  "version": "1.0.0",
-  "main": "Util.js",
-  "license": "MIT",
-  "dependencies": {
-    "@tensorflow/tfjs": "^2.0.1"
-  }
-}

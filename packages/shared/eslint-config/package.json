@@ -1,5 +1,5 @@
 {
-  "name": "@brother.bet/eslint-config",
+  "name": "@bot_telegram/eslint-config",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "license": "MIT",

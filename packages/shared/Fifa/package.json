@@ -1,9 +1,0 @@
-{
-  "name": "@brother.bet/Fifa",
-  "version": "1.0.0",
-  "main": "Fifa.js",
-  "license": "MIT",
-  "dependencies": {
-    "@tensorflow/tfjs": "^2.0.1"
-  }
-}

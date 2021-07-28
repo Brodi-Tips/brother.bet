@@ -1,9 +1,0 @@
-{
-  "name": "@brother.bet/Database",
-  "version": "1.0.0",
-  "main": "Database.js",
-  "license": "MIT",
-  "dependencies": {
-    "@brother.bet/Database":"*"
-  }
-}
