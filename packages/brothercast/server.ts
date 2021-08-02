@@ -13,7 +13,12 @@
 import 'reflect-metadata'
 import sourceMapSupport from 'source-map-support'
 import { Ignitor } from '@adonisjs/core/build/standalone'
+import Bot from './services/Bot'
 
 sourceMapSupport.install({ handleUncaughtExceptions: false })
 
+new Bot();
 new Ignitor(__dirname).httpServer().start()
+
+
+//      NNNN console.log("");
