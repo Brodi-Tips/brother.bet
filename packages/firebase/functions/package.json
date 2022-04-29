@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@hapi/joi-date": "^2.0.1",
-    "async": "2.6.2",
+    "async": "2.6.4",
     "body-parser": "^1.18.3",
     "celebrate": "^12.1.1",
     "cheerio": "1.0.0-rc.2",
