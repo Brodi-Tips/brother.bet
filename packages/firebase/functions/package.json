@@ -22,7 +22,7 @@
     "cors": "^2.8.5",
     "csvtojson": "^2.0.10",
     "engine": "0.1.12",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "express-session": "1.15.6",
     "firebase-admin": "^8.10.0",
     "firebase-functions": "^3.6.1",
